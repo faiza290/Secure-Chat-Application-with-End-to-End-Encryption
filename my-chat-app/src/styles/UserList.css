@@ -1,0 +1,78 @@
+
+.user-list {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .user-list h3 {
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #ecf0f1;
+    background-color: #34495e;
+    margin: 0;
+  }
+  
+  .user-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #34495e;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s;
+  }
+  
+  .user-list li:hover {
+    background-color: #34495e;
+  }
+  
+  .user-list li.selected {
+    background-color: #3498db;
+  }
+  
+  .user-avatar {
+    width: 36px;
+    height: 36px;
+    background-color: #3498db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    font-weight: bold;
+  }
+  
+  .online-indicator {
+    width: 8px;
+    height: 8px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    margin-left: auto;
+  }
+  
+  .no-users {
+    padding: 20px;
+    color: #bdc3c7;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .online-indicator.online {
+    background-color: #28a745;
+  }
+  
+  .online-indicator.offline {
+    background-color: #dc3545;
+  }
+
+  .notification-badge {
+    width: 8px;
+    height: 8px;
+    background-color: #dc3545;
+    border-radius: 50%;
+    margin-left: 8px;
+  }
