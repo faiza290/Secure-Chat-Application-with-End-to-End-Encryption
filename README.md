@@ -55,8 +55,8 @@ This project was tested locally on a **single laptop** using **two browser tabs*
 ## 🤝 Collaborators
 
 This project was developed as a **collaborative effort** by:
-- **Faiza Khan** – [GitHub Profile](https://github.com/faiza290)
-- **Amna Mansoor**
+- **Faiza Khan** – [GitHub Profile](https://github.com/faiza290) made python backend
+- **Amna Mansoor** made react frontend
 
 ---
 
